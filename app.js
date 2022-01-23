@@ -17,10 +17,6 @@ app.get('/add', (req,res) => {
     res.render();
 })
 
-app.get('/remove', (req, res) => {
-    res.render();
-})
-
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 })
